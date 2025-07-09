@@ -1,16 +1,17 @@
-# AgroAI
+# AgroAI Edge
 
-AgroAI is an end-to-end sensor data analytics and anomaly detection platform for agriculture and industrial IoT. It features a FastAPI backend for data ingestion, analytics, and machine learning, and a React frontend dashboard for real-time visualization and anomaly prediction.
+AgroAI Edge is a modular platform for real-time sensor data analytics and anomaly detection at the edge, designed for agriculture and industrial IoT deployments. It features a FastAPI backend for data ingestion, analytics, and machine learning, and a React-based dashboard for visualization and live anomaly prediction.
 
 ---
 
 ## Features
 
-- **Sensor Data Ingestion:** Collect and store readings from various sensor types.
-- **Analytics:** View statistics such as average temperature, humidity, and recent anomalies.
-- **Machine Learning:** Train and evaluate anomaly detection models.
-- **Anomaly Prediction:** Predict anomalies in real-time using ensemble ML models.
+- **Edge Sensor Data Ingestion:** Collect and store readings from various edge-deployed sensors.
+- **Real-Time Analytics:** View statistics such as average temperature, humidity, and recent anomalies.
+- **On-Device Machine Learning:** Train and evaluate anomaly detection models at the edge.
+- **Live Anomaly Prediction:** Predict anomalies in real-time using ensemble ML models.
 - **Interactive Dashboard:** Visualize sensor data, analytics, and prediction results.
+- **Configurable via .env:** Easily adapt to different environments and deployments.
 
 ---
 
@@ -18,8 +19,8 @@ AgroAI is an end-to-end sensor data analytics and anomaly detection platform for
 
 - **Backend:** FastAPI, Python, dotenv
 - **Frontend:** React, Recharts, Tailwind CSS, Lucide Icons
-- **ML/Analytics:** scikit-learn, numpy, pandas (assumed)
-- **Environment:** Docker (optional), .env configuration
+- **ML/Analytics:** scikit-learn, numpy, pandas
+- **Deployment:** Docker (optional), .env configuration
 
 ---
 
