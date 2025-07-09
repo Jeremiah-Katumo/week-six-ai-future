@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts';
 import { Activity, AlertTriangle, TrendingUp, Database, Zap, Thermometer } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.REACT_APP_API_BASE_URL;
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 function SensorDashboard() {
     const [sensorData, setSensorData] = useState([]);
